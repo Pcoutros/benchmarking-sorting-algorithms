@@ -1,8 +1,6 @@
 /**
  * Pete Coutros
- * CMSC451
  * June 8, 2024
- * Project 1 - Benchmarking Bubble and Insertion Sort
  * 
  * This class is used to benchmark the sorting algorithms on the randomly generated data sets. It outputs the critical
  * operation counts and elapsed time of each sort() method call of the algorithms into corresponding text files. There are 40 
