@@ -1,8 +1,6 @@
 /**
  * Pete Coutros
- * CMSC451
  * June 8, 2024
- * Project 1 - Benchmarking Bubble and Insertion Sort
  * 
  * This class is used to manipulate the data from the BenchmarkSorts.java text file outputs and puts it in a JTable to display to the user. The data from
  * the text files are first read in, parsed, and added to the appropriate lists. That data is then manipulated and added into the correct row/column of the
