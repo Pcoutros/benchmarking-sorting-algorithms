@@ -1,8 +1,6 @@
 /**
  * Pete Coutros
- * CMSC451
  * June 8, 2024
- * Project 1 - Benchmarking Bubble and Insertion Sort
  * 
  * This class contains the implementation for an insertion sort algorithm. The sort() method was
  * copied from https://www.geeksforgeeks.org/insertion-sort/ and modified to meet the project
