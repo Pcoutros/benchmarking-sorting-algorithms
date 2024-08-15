@@ -1,8 +1,6 @@
 /**
  * Pete Coutros
- * CMSC451
  * June 8, 2024
- * Project 1 - Benchmarking Bubble and Insertion Sort
  * 
  * This is an abstract class to be extended by both sorting algorithms. It contains an abstract
  * sort() method that will need to be overridden. This class is also used to record the start 
