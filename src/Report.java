@@ -79,9 +79,9 @@ public class Report {
 			int[] elapsedTimes = new int[contents.length/2];	
 			
 			
-			int dataSize = Integer.parseInt(contents[0]);					//First value of each line is the size of n
+			int dataSize = Integer.parseInt(contents[0]);				//First value of each line is the size of n
 			for (int i = 0; i <= ((contents.length/2)-1); i++) {
-				counts[i] = Integer.parseInt(contents[(i*2) + 1]);			//Skip the first value (size), then every other value is a count
+				counts[i] = Integer.parseInt(contents[(i*2) + 1]);		//Skip the first value (size), then every other value is a count
 				elapsedTimes[i] = Integer.parseInt(contents[(i*2) + 2]);	//Skip first two values (size and first count), then every other value is a time
 			}
 			
