@@ -68,10 +68,10 @@ public class BenchmarkSorts {
 				appendLabelToFile(filename, dataset[0].length); 	//Length of 2nd dimension of array corresponds to size of n
 				for (int[] array : dataset) {
 					int[] arrayClone = array.clone();
-					sortingAlgorithm.sort(arrayClone);				//Call to sort() is not assigned to array variable bc we don't need the sorted array
+					sortingAlgorithm.sort(arrayClone);		//Call to sort() is not assigned to array variable bc we don't need the sorted array
 					appendDataToFile(sortingAlgorithm, filename);	//Add critical operation counts and elapsed times for each data set of size n
 				}
-				appendLineBreakToFile(filename);					//Add line break to separate the different sizes of n 
+				appendLineBreakToFile(filename);			//Add line break to separate the different sizes of n 
 			}
 		} catch (UnsortedException use) {
 			System.out.println(use.getMessage());
