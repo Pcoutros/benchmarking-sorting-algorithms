@@ -16,3 +16,13 @@ The concepts covered within this project are as follows:
 7) Text file writing and reading for storing and retrieving benchmark data
 8) Creating a Java Swing GUI specifically the use of `JTable` to display results
 9) Utilizing Abstract classes and inheritance in Java
+
+Clone the repository
+Open terminal and change directories to the desired destination
+Type: `git clone <repository_url>`
+Change directory into the repository name
+Compile the BenchmarkSorts.java file using: `javac BenchmarkSorts.java`
+Run the benchmarking program using: `java BenchmarkSorts`
+Compile the Report.java file using: `javac Report.java`
+Run the report using: `java Report`
+Select the desired sorting algorithm text file to be examined
