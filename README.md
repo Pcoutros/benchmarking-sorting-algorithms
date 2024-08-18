@@ -27,4 +27,4 @@ The concepts covered within this project are as follows:
 6) Run the benchmarking program using: `java BenchmarkSorts`
 7) Compile the Report.java file using: `javac Report.java`
 8) Run the report using: `java Report`
-Select the desired sorting algorithm text file to be examined
+9) Select the desired sorting algorithm text file to be examined (bubblesort.txt or insertionsort.txt)
