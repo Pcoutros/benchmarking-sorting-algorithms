@@ -17,12 +17,14 @@ The concepts covered within this project are as follows:
 8) Creating a Java Swing GUI specifically the use of `JTable` to display results
 9) Utilizing Abstract classes and inheritance in Java
 
-Clone the repository
-Open terminal and change directories to the desired destination
-Type: `git clone <repository_url>`
-Change directory into the repository name
-Compile the BenchmarkSorts.java file using: `javac BenchmarkSorts.java`
-Run the benchmarking program using: `java BenchmarkSorts`
-Compile the Report.java file using: `javac Report.java`
-Run the report using: `java Report`
+## How to Use
+
+1) Clone the repository
+2) Open terminal and change directories to the desired destination
+3) Type: `git clone <repository_url>`
+4) Change directory into the repository name
+5) Compile the BenchmarkSorts.java file using: `javac BenchmarkSorts.java`
+6) Run the benchmarking program using: `java BenchmarkSorts`
+7) Compile the Report.java file using: `javac Report.java`
+8) Run the report using: `java Report`
 Select the desired sorting algorithm text file to be examined
